@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lgi-Mt-W9U">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo-Regular.ttf">
+            <string>Cairo-Regular</string>
+        </array>
+        <array key="Cairo-SemiBold.ttf">
+            <string>Cairo-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--StartViewController-->
+        <scene sceneID="D73-XA-l0c">
+            <objects>
+                <viewController title="StartViewController" id="qVx-aN-L9W" customClass="StartViewController" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c0p-Ex-ewe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اختر عضويتك" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6YE-Th-iCE">
+                                <rect key="frame" x="0.0" y="284" width="375" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="n1e-PU-fIP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo1" translatesAutoresizingMaskIntoConstraints="NO" id="np8-i5-7hm">
+                                <rect key="frame" x="87.5" y="84" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="KeH-9g-QjK"/>
+                                    <constraint firstAttribute="width" constant="200" id="zTa-Hm-x3r"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="4ER-OG-W82">
+                                <rect key="frame" x="16" y="339" width="343" height="300"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y2x-do-EPe" customClass="roundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="80"/>
+                                        <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="xbm-7X-n91"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="30"/>
+                                        <state key="normal" title="مستفيد">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Irf-Kb-ad1" kind="show" identifier="Benefit Show" id="NIS-IW-ra1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BwR-hi-QBO" customClass="roundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="110" width="343" height="80"/>
+                                        <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="30"/>
+                                        <state key="normal" title="متبرع">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Irf-Kb-ad1" kind="show" identifier="Donner Show" id="d6Q-C5-r9W"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f9G-Qq-hoA" customClass="roundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="220" width="343" height="80"/>
+                                        <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="30"/>
+                                        <state key="normal" title="منضم">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Irf-Kb-ad1" kind="show" identifier="Joiner Show" id="ZVL-6t-45p"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6YE-Th-iCE" firstAttribute="top" secondItem="np8-i5-7hm" secondAttribute="bottom" id="2yE-wZ-kbC"/>
+                            <constraint firstItem="4ER-OG-W82" firstAttribute="top" secondItem="6YE-Th-iCE" secondAttribute="bottom" constant="15" id="4SO-JA-2Vw"/>
+                            <constraint firstItem="np8-i5-7hm" firstAttribute="top" secondItem="g0N-vx-fHF" secondAttribute="top" constant="40" id="RGF-oy-c10"/>
+                            <constraint firstAttribute="trailing" secondItem="4ER-OG-W82" secondAttribute="trailing" constant="16" id="TW6-vn-UZC"/>
+                            <constraint firstItem="4ER-OG-W82" firstAttribute="leading" secondItem="c0p-Ex-ewe" secondAttribute="leading" constant="16" id="Um9-nw-7kc"/>
+                            <constraint firstItem="6YE-Th-iCE" firstAttribute="leading" secondItem="c0p-Ex-ewe" secondAttribute="leading" id="mTt-Sb-3FV"/>
+                            <constraint firstItem="np8-i5-7hm" firstAttribute="centerX" secondItem="c0p-Ex-ewe" secondAttribute="centerX" id="nOL-XG-nMl"/>
+                            <constraint firstAttribute="trailing" secondItem="6YE-Th-iCE" secondAttribute="trailing" id="tFn-Dr-HLG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="g0N-vx-fHF"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="اللجنة الانسانية الحنانية" id="1kv-2t-Epp"/>
+                    <connections>
+                        <outlet property="benefitButton" destination="y2x-do-EPe" id="PKA-Ia-pvV"/>
+                        <outlet property="donnerButton" destination="BwR-hi-QBO" id="wNj-1n-cgJ"/>
+                        <outlet property="joinerButton" destination="f9G-Qq-hoA" id="5QW-ig-iEa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N5o-1w-UJG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1833" y="17"/>
+        </scene>
+        <!--LoginViewController-->
+        <scene sceneID="bgj-8C-3ar">
+            <objects>
+                <viewController title="LoginViewController" id="Irf-Kb-ad1" customClass="LoginViewController" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VnH-UK-hpi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تسجيل الدخول " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nu6-RE-rex">
+                                <rect key="frame" x="121" y="370.5" width="133.5" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="90E-tf-Zm7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo1" translatesAutoresizingMaskIntoConstraints="NO" id="DnV-pD-cRi">
+                                <rect key="frame" x="87.5" y="114" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="O3u-1w-JgR"/>
+                                    <constraint firstAttribute="height" constant="200" id="nHs-Ve-rL0"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="رقم الجوال " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yj2-LA-Hqo" customClass="textField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                <rect key="frame" x="16" y="430.5" width="343" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Lm2-og-C2N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6dc-bP-c6D">
+                                <rect key="frame" x="136.5" y="575.5" width="102" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="vO8-mr-Yeg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="20"/>
+                                <state key="normal" title="تسجيل جديد">
+                                    <color key="titleColor" red="0.4392156862745098" green="0.4392156862745098" blue="0.4392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="signUpButtonTaped:" destination="Irf-Kb-ad1" eventType="touchUpInside" id="9L2-S8-IwI"/>
+                                    <segue destination="rQP-Jn-OKs" kind="show" id="3ep-Hw-lCU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwf-nG-QXy" customClass="roundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                <rect key="frame" x="50" y="510.5" width="275" height="50"/>
+                                <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="JxY-q9-cUF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="25"/>
+                                <state key="normal" title="التالي">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="Irf-Kb-ad1" eventType="touchUpInside" id="NEB-IX-wFh"/>
+                                    <segue destination="2iy-jC-bnd" kind="show" identifier="loginToHome" id="tsF-mV-26K"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="yj2-LA-Hqo" secondAttribute="trailing" constant="16" id="8Jz-gF-7dC"/>
+                            <constraint firstItem="nu6-RE-rex" firstAttribute="top" secondItem="DnV-pD-cRi" secondAttribute="bottom" constant="56.5" id="FY9-ee-XMY"/>
+                            <constraint firstAttribute="trailing" secondItem="bwf-nG-QXy" secondAttribute="trailing" constant="50" id="Gvy-Q9-72K"/>
+                            <constraint firstItem="yj2-LA-Hqo" firstAttribute="leading" secondItem="VnH-UK-hpi" secondAttribute="leading" constant="16" id="KIU-BF-LpI"/>
+                            <constraint firstItem="nu6-RE-rex" firstAttribute="centerX" secondItem="VnH-UK-hpi" secondAttribute="centerX" id="NuM-CW-m0X"/>
+                            <constraint firstItem="DnV-pD-cRi" firstAttribute="top" secondItem="Gpo-HC-D3r" secondAttribute="top" constant="70" id="Och-GY-7JX"/>
+                            <constraint firstItem="yj2-LA-Hqo" firstAttribute="top" secondItem="nu6-RE-rex" secondAttribute="bottom" constant="20" id="ShW-LF-F5m"/>
+                            <constraint firstItem="6dc-bP-c6D" firstAttribute="top" secondItem="bwf-nG-QXy" secondAttribute="bottom" constant="15" id="bLR-mF-HHB"/>
+                            <constraint firstItem="DnV-pD-cRi" firstAttribute="centerX" secondItem="VnH-UK-hpi" secondAttribute="centerX" id="bNe-TN-Hem"/>
+                            <constraint firstItem="bwf-nG-QXy" firstAttribute="top" secondItem="yj2-LA-Hqo" secondAttribute="bottom" constant="30" id="bPh-jo-a4S"/>
+                            <constraint firstItem="bwf-nG-QXy" firstAttribute="leading" secondItem="VnH-UK-hpi" secondAttribute="leading" constant="50" id="l3h-Kc-KKL"/>
+                            <constraint firstItem="6dc-bP-c6D" firstAttribute="centerX" secondItem="VnH-UK-hpi" secondAttribute="centerX" id="vDz-d0-gqN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Gpo-HC-D3r"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="7lj-zE-ff5">
+                        <barButtonItem key="backBarButtonItem" id="cna-KL-GpM"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="phoneNumberTextField" destination="yj2-LA-Hqo" id="ksH-p4-ebM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u8A-MS-ZCf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2727" y="17"/>
+        </scene>
+        <!--حسابي-->
+        <scene sceneID="E8f-l8-BqJ">
+            <objects>
+                <viewController id="2iy-jC-bnd" customClass="MyAccountViewController" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0hg-Q8-ne4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="SbJ-tO-U1V">
+                                <rect key="frame" x="16" y="319" width="343" height="220"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7n-sP-V32" customClass="insideRoundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="60"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="hSJ-H4-o5z"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="20"/>
+                                        <state key="normal" title="التنبيهات">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="crf-rx-B9q" kind="show" id="li1-Tw-rMQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RUS-Np-UBJ" customClass="insideRoundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="80" width="343" height="60"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="20"/>
+                                        <state key="normal" title="ترقية حسابي">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSE-h4-W70" customClass="insideRoundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="160" width="343" height="60"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="20"/>
+                                        <state key="normal" title="استفسار">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="GGb-0T-03b" kind="show" id="SfV-A3-Jfd"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87t-T9-yA6" customClass="insideRoundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                <rect key="frame" x="16" y="589" width="343" height="59"/>
+                                <color key="backgroundColor" red="0.32549019607843138" green="0.70196078431372544" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="25"/>
+                                <state key="normal" title="تسجيل الخروج">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="naD-Kb-MRj">
+                                <rect key="frame" x="0.0" y="44" width="375" height="125"/>
+                                <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Oi-g4-P9a">
+                                <rect key="frame" x="16" y="119" width="343" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="A2g-Fq-BK8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="naD-Kb-MRj" firstAttribute="leading" secondItem="0hg-Q8-ne4" secondAttribute="leading" id="4jf-ZU-Hei"/>
+                            <constraint firstItem="cif-sg-rf0" firstAttribute="trailing" secondItem="9Oi-g4-P9a" secondAttribute="trailing" constant="16" id="5iB-SB-Cne"/>
+                            <constraint firstItem="87t-T9-yA6" firstAttribute="leading" secondItem="cif-sg-rf0" secondAttribute="leading" constant="16" id="8Lf-7q-0tp"/>
+                            <constraint firstItem="cif-sg-rf0" firstAttribute="trailing" secondItem="87t-T9-yA6" secondAttribute="trailing" constant="16" id="ERC-QF-XQc"/>
+                            <constraint firstItem="9Oi-g4-P9a" firstAttribute="leading" secondItem="cif-sg-rf0" secondAttribute="leading" constant="16" id="QQn-Le-B8z"/>
+                            <constraint firstAttribute="trailing" secondItem="naD-Kb-MRj" secondAttribute="trailing" id="RuW-68-GDS"/>
+                            <constraint firstItem="naD-Kb-MRj" firstAttribute="top" secondItem="cif-sg-rf0" secondAttribute="top" id="TOI-PI-uYi"/>
+                            <constraint firstItem="naD-Kb-MRj" firstAttribute="bottom" secondItem="9Oi-g4-P9a" secondAttribute="bottom" constant="-50" id="XEd-ID-BXW"/>
+                            <constraint firstItem="cif-sg-rf0" firstAttribute="trailing" secondItem="SbJ-tO-U1V" secondAttribute="trailing" constant="16" id="kHY-bi-DCy"/>
+                            <constraint firstItem="SbJ-tO-U1V" firstAttribute="leading" secondItem="cif-sg-rf0" secondAttribute="leading" constant="16" id="nmh-5a-egr"/>
+                            <constraint firstItem="87t-T9-yA6" firstAttribute="top" secondItem="SbJ-tO-U1V" secondAttribute="bottom" constant="50" id="rVt-UJ-u21"/>
+                            <constraint firstItem="9Oi-g4-P9a" firstAttribute="top" secondItem="cif-sg-rf0" secondAttribute="top" constant="75" id="sgU-3r-sgr"/>
+                            <constraint firstItem="SbJ-tO-U1V" firstAttribute="top" secondItem="9Oi-g4-P9a" secondAttribute="bottom" constant="100" id="tsg-Et-Gyf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cif-sg-rf0"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="حسابي" id="PYg-B7-8of">
+                        <barButtonItem key="rightBarButtonItem" image="gear" catalog="system" width="50" id="RHW-PW-Itd">
+                            <connections>
+                                <segue destination="rUt-3a-fGM" kind="show" id="vSe-tK-1uS"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="userNameLabel" destination="9Oi-g4-P9a" id="SVq-rK-AxK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E6Y-L5-8iF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3772" y="508.37438423645324"/>
+        </scene>
+        <!--الاستفسارات-->
+        <scene sceneID="6gW-7x-PWa">
+            <objects>
+                <viewController id="GGb-0T-03b" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="07I-Tz-YQU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="jKT-6B-mcx">
+                                <rect key="frame" x="126" y="84" width="123" height="76"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="أرسل استفسارك" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AhT-ji-3bL">
+                                        <rect key="frame" x="0.0" y="0.0" width="123" height="32"/>
+                                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="عنوان استفسارك" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="APD-qX-6HA">
+                                        <rect key="frame" x="0.0" y="44" width="123" height="32"/>
+                                        <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="17"/>
+                                        <color key="textColor" red="0.32549019610000002" green="0.70196078431372544" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wH1-Gl-5re" customClass="roundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                <rect key="frame" x="16" y="365" width="343" height="59"/>
+                                <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="25"/>
+                                <state key="normal" title="إرسال">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="Irf-Kb-ad1" eventType="touchUpInside" id="E4o-iM-DFU"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="استفسارك هنا..." textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="3YL-k7-djp">
+                                <rect key="frame" x="16" y="190" width="343" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="pQ8-wy-6zD"/>
+                                </constraints>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3YL-k7-djp" firstAttribute="top" secondItem="jKT-6B-mcx" secondAttribute="bottom" constant="30" id="3ui-Ce-VLH"/>
+                            <constraint firstItem="jKT-6B-mcx" firstAttribute="top" secondItem="BLp-TQ-cQL" secondAttribute="top" constant="40" id="Kul-fZ-b0s"/>
+                            <constraint firstItem="3YL-k7-djp" firstAttribute="leading" secondItem="BLp-TQ-cQL" secondAttribute="leading" constant="16" id="THO-Qk-VCx"/>
+                            <constraint firstItem="jKT-6B-mcx" firstAttribute="centerX" secondItem="07I-Tz-YQU" secondAttribute="centerX" id="bMZ-mL-qhn"/>
+                            <constraint firstItem="BLp-TQ-cQL" firstAttribute="trailing" secondItem="wH1-Gl-5re" secondAttribute="trailing" constant="16" id="cej-Ep-Hl8"/>
+                            <constraint firstItem="wH1-Gl-5re" firstAttribute="top" secondItem="3YL-k7-djp" secondAttribute="bottom" constant="25" id="dId-u6-EiP"/>
+                            <constraint firstItem="wH1-Gl-5re" firstAttribute="leading" secondItem="BLp-TQ-cQL" secondAttribute="leading" constant="16" id="dXf-3c-csb"/>
+                            <constraint firstItem="BLp-TQ-cQL" firstAttribute="trailing" secondItem="3YL-k7-djp" secondAttribute="trailing" constant="16" id="iL2-1I-mcG"/>
+                            <constraint firstItem="3YL-k7-djp" firstAttribute="centerX" secondItem="07I-Tz-YQU" secondAttribute="centerX" id="ieD-s2-R4b"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="BLp-TQ-cQL"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="الاستفسارات" id="FCT-gi-jJz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="url-5x-Dz2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3272.8000000000002" y="1251.7241379310346"/>
+        </scene>
+        <!--التنبيهات-->
+        <scene sceneID="0p6-IZ-WA1">
+            <objects>
+                <viewController id="crf-rx-B9q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YxV-kY-RVB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="sPo-XY-YBu"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="التنبيهات" id="iWC-ha-FtT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eY4-Lk-fh2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4385" y="1252"/>
+        </scene>
+        <!--settings-->
+        <scene sceneID="dAO-2Y-R82">
+            <objects>
+                <viewController title="settings" id="rUt-3a-fGM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KM5-u3-fMg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="A1O-6d-SCE"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="تعديل بياناتي" id="bI0-eF-gar"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="83x-pD-RZZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4812" y="508"/>
+        </scene>
+        <!--Camera View Controller-->
+        <scene sceneID="qs1-Ei-t6V">
+            <objects>
+                <viewController id="0gA-de-Zqy" customClass="CameraViewController" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CiH-Ro-Cuh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zDJ-Md-Qod">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ON-Dg-vEZ">
+                                <rect key="frame" x="162.5" y="582.5" width="50" height="49"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="WC5-qn-EUg"/>
+                                    <constraint firstAttribute="width" constant="50" id="hNA-fy-vgU"/>
+                                </constraints>
+                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" backgroundImage="camera.circle" catalog="system"/>
+                                <connections>
+                                    <action selector="takePhoto:" destination="0gA-de-Zqy" eventType="touchUpInside" id="D7M-KO-R6z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1aA-v7-dP7">
+                                <rect key="frame" x="25" y="589" width="58" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="cancel">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="save:" destination="0gA-de-Zqy" eventType="touchUpInside" id="qmx-Cq-kCX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="zDJ-Md-Qod" firstAttribute="trailing" secondItem="RLQ-zW-wnv" secondAttribute="trailing" id="8Ia-3U-Ak2"/>
+                            <constraint firstItem="zDJ-Md-Qod" firstAttribute="bottom" secondItem="RLQ-zW-wnv" secondAttribute="bottom" id="GHd-Ok-3lY"/>
+                            <constraint firstItem="0ON-Dg-vEZ" firstAttribute="centerX" secondItem="zDJ-Md-Qod" secondAttribute="centerX" id="cIo-Lv-3dQ"/>
+                            <constraint firstItem="1aA-v7-dP7" firstAttribute="centerY" secondItem="0ON-Dg-vEZ" secondAttribute="centerY" id="d2d-9C-kbR"/>
+                            <constraint firstItem="zDJ-Md-Qod" firstAttribute="top" secondItem="CiH-Ro-Cuh" secondAttribute="top" id="ekN-uf-rNU"/>
+                            <constraint firstItem="zDJ-Md-Qod" firstAttribute="leading" secondItem="RLQ-zW-wnv" secondAttribute="leading" id="nP7-f4-L8Y"/>
+                            <constraint firstItem="1aA-v7-dP7" firstAttribute="leading" secondItem="RLQ-zW-wnv" secondAttribute="leading" constant="25" id="roa-Mx-A6w"/>
+                            <constraint firstItem="RLQ-zW-wnv" firstAttribute="bottom" secondItem="0ON-Dg-vEZ" secondAttribute="bottom" constant="35" id="wxc-z2-zp5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RLQ-zW-wnv"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="LNd-H6-kcG"/>
+                    <connections>
+                        <outlet property="imageTake" destination="zDJ-Md-Qod" id="oZx-b2-1Ks"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IYb-gd-fOp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3772" y="-980.95952023988013"/>
+        </scene>
+        <!--SignUpViewController-->
+        <scene sceneID="AyY-vM-Zs0">
+            <objects>
+                <viewController title="SignUpViewController" id="rQP-Jn-OKs" customClass="SignUpViewController" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7qO-Y8-LF9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Z2i-GD-jFQ">
+                                <rect key="frame" x="10" y="74" width="355" height="505"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="الاسم الرباعي  " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nri-8X-XZw" customClass="textField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="rm0-Rs-O8a"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSn-zY-BVc" customClass="roundedButtonLikeTextField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="65" width="355" height="50"/>
+                                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                        <color key="tintColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="5" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="320" maxY="0.0"/>
+                                        <state key="normal" title="الجنس" image="arrowtriangle.down.fill" catalog="system">
+                                            <color key="titleColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="18" scale="medium" weight="medium"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="genderButtonTapped:" destination="rQP-Jn-OKs" eventType="touchUpInside" id="DI0-4i-XKz"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="رقم السجل المدني " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0s1-7p-Pv2" customClass="textField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="130" width="355" height="50"/>
+                                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="رقم الجوال " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yRI-6v-lwl" customClass="textField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="195" width="355" height="50"/>
+                                        <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
+                                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="tel"/>
+                                    </textField>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L66-KN-rOU" customClass="roundedButtonLikeTextField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="260" width="355" height="50"/>
+                                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                        <color key="tintColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="5" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="310" maxY="0.0"/>
+                                        <state key="normal" title="  المدينة" image="arrowtriangle.down.fill" catalog="system">
+                                            <color key="titleColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="18" scale="medium" weight="medium"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="cityButtonTapped:" destination="rQP-Jn-OKs" eventType="touchUpInside" id="hjS-1z-DJi"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DLp-3m-PLP" customClass="roundedButtonLikeTextField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="325" width="355" height="50"/>
+                                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                        <color key="tintColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="5" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="285" maxY="0.0"/>
+                                        <state key="normal" title="  مجال التبرع" image="arrowtriangle.down.fill" catalog="system">
+                                            <color key="titleColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="18" scale="medium" weight="medium"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="donnateFieldButtonTapped:" destination="rQP-Jn-OKs" eventType="touchUpInside" id="HkZ-zP-uIU"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="البريد الالكتروني " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YcA-4H-dwv" customClass="textField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="390" width="355" height="50"/>
+                                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uZa-ee-lov" customClass="roundedButtonLikeTextField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="455" width="355" height="50"/>
+                                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                        <color key="tintColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="5" maxY="0.0"/>
+                                        <state key="normal" title="  إرفاق السجل المدني                                                         " image="paperclip" catalog="system">
+                                            <color key="titleColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="18" scale="medium" weight="medium"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="0gA-de-Zqy" kind="show" id="MMp-ba-5Y3"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e16-WF-Jfj" customClass="roundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                <rect key="frame" x="10" y="599" width="355" height="50"/>
+                                <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="3SM-nK-HeQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="25"/>
+                                <state key="normal" title="التالي">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="k0w-3Y-t02" kind="show" id="cpc-RM-iIA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="e16-WF-Jfj" firstAttribute="leading" secondItem="7qO-Y8-LF9" secondAttribute="leading" constant="10" id="2Mc-xi-CSC"/>
+                            <constraint firstItem="e16-WF-Jfj" firstAttribute="top" secondItem="Z2i-GD-jFQ" secondAttribute="bottom" constant="20" id="BYA-Kc-9E2"/>
+                            <constraint firstAttribute="trailing" secondItem="Z2i-GD-jFQ" secondAttribute="trailing" constant="10" id="Xel-W7-WRp"/>
+                            <constraint firstItem="vVh-YR-Gyn" firstAttribute="bottom" secondItem="e16-WF-Jfj" secondAttribute="bottom" constant="18" id="bvU-4r-8ik"/>
+                            <constraint firstItem="Z2i-GD-jFQ" firstAttribute="leading" secondItem="7qO-Y8-LF9" secondAttribute="leading" constant="10" id="gwL-XD-QJS"/>
+                            <constraint firstItem="Z2i-GD-jFQ" firstAttribute="top" secondItem="vVh-YR-Gyn" secondAttribute="top" constant="30" id="oyP-un-nLD"/>
+                            <constraint firstAttribute="trailing" secondItem="e16-WF-Jfj" secondAttribute="trailing" constant="10" id="xY9-vb-Kz2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vVh-YR-Gyn"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="منضم جديد" id="krY-v5-qDZ">
+                        <barButtonItem key="backBarButtonItem" id="SmR-J4-wGV"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cityButton" destination="L66-KN-rOU" id="MLV-Yr-xjl"/>
+                        <outlet property="donnateFieldButton" destination="DLp-3m-PLP" id="iwK-mz-qww"/>
+                        <outlet property="genderButton" destination="ZSn-zY-BVc" id="PBO-ij-OzU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xDf-oE-eDx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3772" y="-236"/>
+        </scene>
+        <!--التحقق من الجوال -->
+        <scene sceneID="nbx-Wf-2rG">
+            <objects>
+                <viewController id="k0w-3Y-t02" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RAm-qZ-XQk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="VvF-rh-x7k"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="التحقق من الجوال " id="LmY-Xu-KB6" userLabel="التحقق من الجوال"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="re7-uT-4EU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4516" y="-236"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="TOY-YA-K1J">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lgi-Mt-W9U" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="y1H-D9-B7O">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qVx-aN-L9W" kind="relationship" relationship="rootViewController" id="9Li-lm-5cY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kSC-G5-5Kn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="924" y="17.541229385307346"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo1" width="1280" height="1210"/>
+        <image name="arrowtriangle.down.fill" catalog="system" width="64" height="62"/>
+        <image name="camera.circle" catalog="system" width="64" height="60"/>
+        <image name="gear" catalog="system" width="64" height="58"/>
+        <image name="paperclip" catalog="system" width="64" height="64"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="ZVL-6t-45p"/>
+    </inferredMetricsTieBreakers>
+</document>

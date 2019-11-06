@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048646BE2369E2F300496C0E /* Membership.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048646BD2369E2F300496C0E /* Membership.swift */; };
+		048646C2236A3B8200496C0E /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048646C1236A3B8200496C0E /* StartViewController.swift */; };
+		048E1B0D2370F63400571B56 /* roundedButtonLikeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E1B0C2370F63400571B56 /* roundedButtonLikeTextField.swift */; };
+		04D9EE12235E8C6300C02AFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9EE11235E8C6300C02AFE /* AppDelegate.swift */; };
+		04D9EE1C235E8C6500C02AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D9EE1A235E8C6500C02AFE /* LaunchScreen.storyboard */; };
+		04D9EE28235F200E00C02AFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D9EE27235F200E00C02AFE /* Main.storyboard */; };
+		04D9EE2A235F52BD00C02AFE /* roundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9EE29235F52BD00C02AFE /* roundedButton.swift */; };
+		04D9EE2C235F5F8B00C02AFE /* textField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9EE2B235F5F8B00C02AFE /* textField.swift */; };
+		04D9EE3923605FE600C02AFE /* Cairo-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04D9EE2E23605FE500C02AFE /* Cairo-SemiBoldItalic.ttf */; };
+		04D9EE3B23605FE600C02AFE /* Cairo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04D9EE3023605FE500C02AFE /* Cairo-Light.ttf */; };
+		04D9EE3C23605FE600C02AFE /* Cairo-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04D9EE3123605FE500C02AFE /* Cairo-LightItalic.ttf */; };
+		04D9EE3D23605FE600C02AFE /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04D9EE3223605FE500C02AFE /* Cairo-SemiBold.ttf */; };
+		04D9EE3F23605FE600C02AFE /* Cairo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04D9EE3423605FE600C02AFE /* Cairo-Italic.ttf */; };
+		04D9EE4323605FE600C02AFE /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04D9EE3823605FE600C02AFE /* Cairo-Regular.ttf */; };
+		04E104532366627B00788C47 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E104522366627B00788C47 /* LoginViewController.swift */; };
+		04E104552366786400788C47 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E104542366786400788C47 /* SignUpViewController.swift */; };
+		04E2EF112372832E000895C5 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E2EF102372832E000895C5 /* CameraViewController.swift */; };
+		04E4BE94236F33C10020CFF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E4BE93236F33C10020CFF3 /* Assets.xcassets */; };
+		04E4BE96236F3C540020CFF3 /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4BE95236F3C540020CFF3 /* MyAccountViewController.swift */; };
+		04E4BE98236FA4AC0020CFF3 /* insideRoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4BE97236FA4AC0020CFF3 /* insideRoundedButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		048646BD2369E2F300496C0E /* Membership.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Membership.swift; sourceTree = "<group>"; };
+		048646C1236A3B8200496C0E /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		048E1B0C2370F63400571B56 /* roundedButtonLikeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundedButtonLikeTextField.swift; sourceTree = "<group>"; };
+		04D9EE0E235E8C6300C02AFE /* اللجنة الانسانية الجنائية.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "اللجنة الانسانية الجنائية.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D9EE11235E8C6300C02AFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04D9EE1B235E8C6500C02AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04D9EE1D235E8C6500C02AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D9EE27235F200E00C02AFE /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		04D9EE29235F52BD00C02AFE /* roundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundedButton.swift; sourceTree = "<group>"; };
+		04D9EE2B235F5F8B00C02AFE /* textField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textField.swift; sourceTree = "<group>"; };
+		04D9EE2E23605FE500C02AFE /* Cairo-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		04D9EE3023605FE500C02AFE /* Cairo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Light.ttf"; sourceTree = "<group>"; };
+		04D9EE3123605FE500C02AFE /* Cairo-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-LightItalic.ttf"; sourceTree = "<group>"; };
+		04D9EE3223605FE500C02AFE /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
+		04D9EE3423605FE600C02AFE /* Cairo-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Italic.ttf"; sourceTree = "<group>"; };
+		04D9EE3823605FE600C02AFE /* Cairo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		04E104522366627B00788C47 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04E104542366786400788C47 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		04E2EF102372832E000895C5 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		04E4BE93236F33C10020CFF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E4BE95236F3C540020CFF3 /* MyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
+		04E4BE97236FA4AC0020CFF3 /* insideRoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = insideRoundedButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D9EE0B235E8C6300C02AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048646BC2369E2DD00496C0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				048646BD2369E2F300496C0E /* Membership.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04D9EE05235E8C6300C02AFE = {
+			isa = PBXGroup;
+			children = (
+				04D9EE10235E8C6300C02AFE /* اللجنة الانسانية الجنائية */,
+				04D9EE0F235E8C6300C02AFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04D9EE0F235E8C6300C02AFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D9EE0E235E8C6300C02AFE /* اللجنة الانسانية الجنائية.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D9EE10235E8C6300C02AFE /* اللجنة الانسانية الجنائية */ = {
+			isa = PBXGroup;
+			children = (
+				04E1045623669A7200788C47 /* Supporting Files */,
+				04D9EE2D23605EE000C02AFE /* Font */,
+				04D9EE23235F1C1A00C02AFE /* Authentication */,
+				04D9EE11235E8C6300C02AFE /* AppDelegate.swift */,
+				04E4BE93236F33C10020CFF3 /* Assets.xcassets */,
+			);
+			path = "اللجنة الانسانية الجنائية";
+			sourceTree = "<group>";
+		};
+		04D9EE23235F1C1A00C02AFE /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				048646BC2369E2DD00496C0E /* Model */,
+				04D9EE26235F1EEA00C02AFE /* Controller */,
+				04D9EE25235F1EE200C02AFE /* View */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		04D9EE25235F1EE200C02AFE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04D9EE1A235E8C6500C02AFE /* LaunchScreen.storyboard */,
+				04D9EE27235F200E00C02AFE /* Main.storyboard */,
+				04D9EE29235F52BD00C02AFE /* roundedButton.swift */,
+				048E1B0C2370F63400571B56 /* roundedButtonLikeTextField.swift */,
+				04E4BE97236FA4AC0020CFF3 /* insideRoundedButton.swift */,
+				04D9EE2B235F5F8B00C02AFE /* textField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04D9EE26235F1EEA00C02AFE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04E104522366627B00788C47 /* LoginViewController.swift */,
+				04E2EF102372832E000895C5 /* CameraViewController.swift */,
+				04E104542366786400788C47 /* SignUpViewController.swift */,
+				048646C1236A3B8200496C0E /* StartViewController.swift */,
+				04E4BE95236F3C540020CFF3 /* MyAccountViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04D9EE2D23605EE000C02AFE /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				04D9EE3423605FE600C02AFE /* Cairo-Italic.ttf */,
+				04D9EE3023605FE500C02AFE /* Cairo-Light.ttf */,
+				04D9EE3123605FE500C02AFE /* Cairo-LightItalic.ttf */,
+				04D9EE3823605FE600C02AFE /* Cairo-Regular.ttf */,
+				04D9EE3223605FE500C02AFE /* Cairo-SemiBold.ttf */,
+				04D9EE2E23605FE500C02AFE /* Cairo-SemiBoldItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		04E1045623669A7200788C47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04D9EE1D235E8C6500C02AFE /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D9EE0D235E8C6300C02AFE /* اللجنة الانسانية الجنائية */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D9EE20235E8C6500C02AFE /* Build configuration list for PBXNativeTarget "اللجنة الانسانية الجنائية" */;
+			buildPhases = (
+				04D9EE0A235E8C6300C02AFE /* Sources */,
+				04D9EE0B235E8C6300C02AFE /* Frameworks */,
+				04D9EE0C235E8C6300C02AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "اللجنة الانسانية الجنائية";
+			productName = "اللجنة الانسانية الجنائية";
+			productReference = 04D9EE0E235E8C6300C02AFE /* اللجنة الانسانية الجنائية.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D9EE06235E8C6300C02AFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Thehatchapp;
+				TargetAttributes = {
+					04D9EE0D235E8C6300C02AFE = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 04D9EE09235E8C6300C02AFE /* Build configuration list for PBXProject "اللجنة الانسانية الجنائية" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04D9EE05235E8C6300C02AFE;
+			productRefGroup = 04D9EE0F235E8C6300C02AFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D9EE0D235E8C6300C02AFE /* اللجنة الانسانية الجنائية */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D9EE0C235E8C6300C02AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D9EE28235F200E00C02AFE /* Main.storyboard in Resources */,
+				04D9EE3923605FE600C02AFE /* Cairo-SemiBoldItalic.ttf in Resources */,
+				04D9EE3D23605FE600C02AFE /* Cairo-SemiBold.ttf in Resources */,
+				04D9EE3C23605FE600C02AFE /* Cairo-LightItalic.ttf in Resources */,
+				04D9EE1C235E8C6500C02AFE /* LaunchScreen.storyboard in Resources */,
+				04D9EE4323605FE600C02AFE /* Cairo-Regular.ttf in Resources */,
+				04D9EE3F23605FE600C02AFE /* Cairo-Italic.ttf in Resources */,
+				04E4BE94236F33C10020CFF3 /* Assets.xcassets in Resources */,
+				04D9EE3B23605FE600C02AFE /* Cairo-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D9EE0A235E8C6300C02AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E2EF112372832E000895C5 /* CameraViewController.swift in Sources */,
+				04E4BE98236FA4AC0020CFF3 /* insideRoundedButton.swift in Sources */,
+				04E104552366786400788C47 /* SignUpViewController.swift in Sources */,
+				04D9EE12235E8C6300C02AFE /* AppDelegate.swift in Sources */,
+				04E4BE96236F3C540020CFF3 /* MyAccountViewController.swift in Sources */,
+				048E1B0D2370F63400571B56 /* roundedButtonLikeTextField.swift in Sources */,
+				048646C2236A3B8200496C0E /* StartViewController.swift in Sources */,
+				04D9EE2A235F52BD00C02AFE /* roundedButton.swift in Sources */,
+				04E104532366627B00788C47 /* LoginViewController.swift in Sources */,
+				04D9EE2C235F5F8B00C02AFE /* textField.swift in Sources */,
+				048646BE2369E2F300496C0E /* Membership.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04D9EE1A235E8C6500C02AFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D9EE1B235E8C6500C02AFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04D9EE1E235E8C6500C02AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04D9EE1F235E8C6500C02AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04D9EE21235E8C6500C02AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97KJB35S4G;
+				INFOPLIST_FILE = "$(SRCROOT)/اللجنة الانسانية الجنائية/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Developer.--------------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04D9EE22235E8C6500C02AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97KJB35S4G;
+				INFOPLIST_FILE = "$(SRCROOT)/اللجنة الانسانية الجنائية/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Developer.--------------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D9EE09235E8C6300C02AFE /* Build configuration list for PBXProject "اللجنة الانسانية الجنائية" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D9EE1E235E8C6500C02AFE /* Debug */,
+				04D9EE1F235E8C6500C02AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D9EE20235E8C6500C02AFE /* Build configuration list for PBXNativeTarget "اللجنة الانسانية الجنائية" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D9EE21235E8C6500C02AFE /* Debug */,
+				04D9EE22235E8C6500C02AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04D9EE06235E8C6300C02AFE /* Project object */;
+}

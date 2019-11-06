@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo1" translatesAutoresizingMaskIntoConstraints="NO" id="s24-xF-IEW">
+                                <rect key="frame" x="62.5" y="100" width="250" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="2J1-nA-v2Z"/>
+                                    <constraint firstAttribute="width" constant="250" id="9zD-Le-MlQ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wave1" translatesAutoresizingMaskIntoConstraints="NO" id="7Dw-OH-dhg">
+                                <rect key="frame" x="0.0" y="454" width="375" height="213"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="213" id="94q-XC-0Sa"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32549019607843138" green="0.70196078431372544" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="7Dw-OH-dhg" secondAttribute="bottom" id="0Jw-EN-FPa"/>
+                            <constraint firstAttribute="trailing" secondItem="7Dw-OH-dhg" secondAttribute="trailing" id="HMv-4x-0X8"/>
+                            <constraint firstItem="s24-xF-IEW" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="KZ1-Ws-OsY"/>
+                            <constraint firstItem="7Dw-OH-dhg" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="nj6-F2-tNM"/>
+                            <constraint firstItem="s24-xF-IEW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="zO3-Vl-7vn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo1" width="1280" height="1210"/>
+        <image name="Wave1" width="1280" height="839"/>
+    </resources>
+</document>
