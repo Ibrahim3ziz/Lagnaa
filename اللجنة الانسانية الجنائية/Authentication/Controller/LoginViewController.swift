@@ -12,9 +12,7 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var phoneNumberTextField: UITextField!
     
-    
-    
-    
+   
     
     @IBAction func nextButtonTapped(_ sender: Any) {
         if phoneNumberTextField.text!.isEmpty {
@@ -25,8 +23,7 @@ class LoginViewController: UIViewController {
         }
         
         else {
-            //print("HHHHHHIIII")
-            //self.performSegue(withIdentifier: "loginToHome", sender: self)
+            return phoneNumberTextField.text = title
         }
         
     }
@@ -35,12 +32,10 @@ class LoginViewController: UIViewController {
     @IBAction func signUpButtonTaped(_ sender: Any) {
     }
     
-
    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //        navigationItem.title = UIButton.title(<#T##UIButton#>)
         
     }
 }

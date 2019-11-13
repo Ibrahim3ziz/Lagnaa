@@ -18,7 +18,7 @@ class SignUpViewController: UIViewController {
     
     
         @IBAction func genderButtonTapped(_ sender: Any) {
-            let genderList = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
+            let genderList = UIAlertController(title: "الجنس", message: nil, preferredStyle: .actionSheet)
                   
             let male = UIAlertAction(title: "ذكر", style: .default)
             let female = UIAlertAction(title: "أنثي", style: .default)
