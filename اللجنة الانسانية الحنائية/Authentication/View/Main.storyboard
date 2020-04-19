@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lgi-Mt-W9U">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lgi-Mt-W9U">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -44,7 +44,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="nna-Im-3c5"/>
                     </view>
-                    <navigationItem key="navigationItem" title="التنبيهات" id="kyt-55-s5D"/>
+                    <navigationItem key="navigationItem" title="التنبيهات" id="kyt-55-s5D">
+                        <barButtonItem key="backBarButtonItem" title=" " id="KhE-IL-Bnr"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dJZ-7p-2dR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -53,7 +55,7 @@
         <!--Camera View Controller-->
         <scene sceneID="KtC-9a-GJA">
             <objects>
-                <viewController id="m4X-CM-ZqA" customClass="CameraViewController" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="m4X-CM-ZqA" customClass="CameraViewController" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="127-FI-lJZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -105,7 +107,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KMU-Qv-Ns9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5134" y="-327"/>
+            <point key="canvasLocation" x="4831" y="-260"/>
         </scene>
         <!--الاستفسارات-->
         <scene sceneID="DEe-vo-0pw">
@@ -132,7 +134,7 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OFG-X1-vmm" customClass="roundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OFG-X1-vmm" customClass="roundedButton" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                 <rect key="frame" x="16" y="365" width="343" height="59"/>
                                 <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="25"/>
@@ -143,7 +145,7 @@
                                     <action selector="nextButtonTapped:" destination="OYE-wO-aNJ" eventType="touchUpInside" id="NGV-U1-j1n"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="استفسارك هنا..." textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="eSy-XD-G0D" customClass="textView" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="استفسارك هنا..." textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="eSy-XD-G0D" customClass="textView" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                 <rect key="frame" x="16" y="190" width="343" height="150"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -169,7 +171,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="470-Wo-wnQ"/>
                     </view>
-                    <navigationItem key="navigationItem" title="الاستفسارات" id="t8x-2m-Baa"/>
+                    <navigationItem key="navigationItem" title="الاستفسارات" id="t8x-2m-Baa">
+                        <barButtonItem key="backBarButtonItem" title=" " id="MwU-NP-tD0"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mJS-sr-X8q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -186,7 +190,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="jGy-Fr-mD6">
                                 <rect key="frame" x="16" y="60" width="343" height="60"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="رقم الجوال " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DG8-MJ-y08" customClass="textField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="رقم الجوال " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DG8-MJ-y08" customClass="textField" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="268.5" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="268.5" id="D7A-EH-f7h"/>
@@ -196,7 +200,7 @@
                                         <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="tel"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="+996" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kh3-o0-UGj" customClass="textField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="+996" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kh3-o0-UGj" customClass="textField" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="276.5" y="0.0" width="66.5" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="iBy-eg-RYg"/>
@@ -210,7 +214,7 @@
                                     <constraint firstAttribute="height" constant="60" id="ewL-AP-D2w"/>
                                 </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1O-8i-yr5" customClass="roundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1O-8i-yr5" customClass="roundedButton" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                 <rect key="frame" x="16" y="155" width="343" height="60"/>
                                 <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -244,7 +248,7 @@
         <!--StartViewController-->
         <scene sceneID="qkm-Nc-1Fk">
             <objects>
-                <viewController title="StartViewController" id="n6i-kv-7VO" customClass="StartViewController" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="StartViewController" id="n6i-kv-7VO" customClass="StartViewController" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DMo-Ew-TtC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -268,7 +272,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="lDz-95-pOm">
                                 <rect key="frame" x="16" y="339" width="343" height="300"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGu-CA-JuI" customClass="roundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGu-CA-JuI" customClass="roundedButton" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="80"/>
                                         <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -279,11 +283,10 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="benefitButtonTapped:" destination="n6i-kv-7VO" eventType="touchUpInside" id="Z3f-tq-G4H"/>
-                                            <segue destination="OYE-wO-aNJ" kind="show" identifier="Benefit Show" id="XDM-ik-dUP"/>
+                                            <segue destination="OYE-wO-aNJ" kind="show" identifier="benefitLogin" id="vIe-4x-BQr"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4OB-Fs-WpT" customClass="roundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4OB-Fs-WpT" customClass="roundedButton" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="110" width="343" height="80"/>
                                         <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="30"/>
@@ -291,10 +294,10 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="OYE-wO-aNJ" kind="show" identifier="Donner Show" id="YRC-rL-Bso"/>
+                                            <segue destination="OYE-wO-aNJ" kind="show" identifier="donerLogin" id="9Oq-T7-hsT"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cyf-YK-RFW" customClass="roundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cyf-YK-RFW" customClass="roundedButton" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="220" width="343" height="80"/>
                                         <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="30"/>
@@ -302,7 +305,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="OYE-wO-aNJ" kind="show" identifier="Joiner Show" id="IQu-V0-e0T"/>
+                                            <segue destination="OYE-wO-aNJ" kind="show" identifier="joinerLogin" id="6Yw-GE-KE9"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -321,7 +324,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="KNL-uL-GMi"/>
                     </view>
-                    <navigationItem key="navigationItem" title="اللجنة الانسانية الحنانية" id="mIG-Ya-by8"/>
+                    <navigationItem key="navigationItem" title="اللجنة الانسانية الحنانية" id="mIG-Ya-by8">
+                        <barButtonItem key="backBarButtonItem" title=" " id="faq-5j-Y2R"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="benefitButton" destination="TGu-CA-JuI" id="XuF-eQ-g28"/>
                         <outlet property="donnerButton" destination="4OB-Fs-WpT" id="JX7-23-hab"/>
@@ -335,7 +340,7 @@
         <!--SignUpViewController-->
         <scene sceneID="pcv-RM-QND">
             <objects>
-                <viewController title="SignUpViewController" id="UBC-b3-MOU" customClass="SignUpViewController" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="SignUpViewController" id="UBC-b3-MOU" customClass="SignUpViewController" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IrW-yJ-vuj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -343,12 +348,12 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="YYe-9Z-rLx">
                                 <rect key="frame" x="10" y="74" width="355" height="505"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="الاسم الرباعي  " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DuF-vy-gx8" customClass="textField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="الاسم الرباعي  " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DuF-vy-gx8" customClass="textField" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="355" height="50"/>
                                         <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fqs-pm-kEz" customClass="roundedButtonLikeTextField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fqs-pm-kEz" customClass="roundedButtonLikeTextField" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="65" width="355" height="50"/>
                                         <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                         <color key="tintColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
@@ -362,18 +367,18 @@
                                             <action selector="genderButtonTapped:" destination="UBC-b3-MOU" eventType="touchUpInside" id="KAv-9D-qxi"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="رقم السجل المدني " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hPp-ux-JUe" customClass="textField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="رقم السجل المدني " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hPp-ux-JUe" customClass="textField" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="130" width="355" height="50"/>
                                         <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="رقم الجوال " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eKg-r0-0Jj" customClass="textField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="رقم الجوال " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eKg-r0-0Jj" customClass="textField" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="195" width="355" height="50"/>
                                         <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
                                         <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="tel"/>
                                     </textField>
-                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ibA-IM-qmm" customClass="roundedButtonLikeTextField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ibA-IM-qmm" customClass="roundedButtonLikeTextField" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="260" width="355" height="50"/>
                                         <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                         <color key="tintColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
@@ -387,7 +392,7 @@
                                             <action selector="cityButtonTapped:" destination="UBC-b3-MOU" eventType="touchUpInside" id="65G-hH-I5o"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VuJ-Ha-tcY" customClass="roundedButtonLikeTextField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VuJ-Ha-tcY" customClass="roundedButtonLikeTextField" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="325" width="355" height="50"/>
                                         <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                         <color key="tintColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
@@ -401,12 +406,12 @@
                                             <action selector="donnateFieldButtonTapped:" destination="UBC-b3-MOU" eventType="touchUpInside" id="wuS-T6-Zln"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="البريد الالكتروني " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EAz-m8-JKm" customClass="textField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="البريد الالكتروني " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EAz-m8-JKm" customClass="textField" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="390" width="355" height="50"/>
                                         <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S3g-a9-ND7" customClass="roundedButtonLikeTextField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S3g-a9-ND7" customClass="roundedButtonLikeTextField" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="455" width="355" height="50"/>
                                         <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                         <color key="tintColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
@@ -418,7 +423,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyF-8e-VIJ" customClass="roundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyF-8e-VIJ" customClass="roundedButton" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                 <rect key="frame" x="10" y="599" width="355" height="50"/>
                                 <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -458,7 +463,7 @@
         <!--حسابي-->
         <scene sceneID="vPh-Vf-keu">
             <objects>
-                <viewController id="A1W-9b-tMN" customClass="MyAccountViewController" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="A1W-9b-tMN" customClass="MyAccountViewController" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="P1e-lv-gRC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -466,7 +471,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ssv-tj-El3">
                                 <rect key="frame" x="16" y="319" width="343" height="220"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ej-gR-a66" customClass="insideRoundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ej-gR-a66" customClass="insideRoundedButton" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="60"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -480,7 +485,7 @@
                                             <segue destination="kKd-V8-AfY" kind="show" id="hq4-Ke-3wd"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vaB-6Y-ySI" customClass="insideRoundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vaB-6Y-ySI" customClass="insideRoundedButton" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="80" width="343" height="60"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="20"/>
@@ -488,7 +493,7 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="40a-oq-CNE" customClass="insideRoundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="40a-oq-CNE" customClass="insideRoundedButton" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="160" width="343" height="60"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="20"/>
@@ -501,7 +506,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LY8-aU-gVI" customClass="insideRoundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LY8-aU-gVI" customClass="insideRoundedButton" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                 <rect key="frame" x="16" y="589" width="343" height="59"/>
                                 <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="25"/>
@@ -543,6 +548,7 @@
                         <viewLayoutGuide key="safeArea" id="7Q4-Wl-nSE"/>
                     </view>
                     <navigationItem key="navigationItem" title="حسابي" id="F24-3B-jLU">
+                        <barButtonItem key="backBarButtonItem" title=" " id="DSu-Ng-Ipz"/>
                         <barButtonItem key="rightBarButtonItem" image="gear" catalog="system" width="50" id="aga-HY-tzV">
                             <connections>
                                 <segue destination="UBC-b3-MOU" kind="show" id="DY9-Qa-eMQ"/>
@@ -561,7 +567,7 @@
         <!--SignUpViewController-->
         <scene sceneID="Ynn-VQ-Ihg">
             <objects>
-                <viewController title="SignUpViewController" id="bsl-YZ-b1y" customClass="SignUpViewController" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="SignUpViewController" id="bsl-YZ-b1y" customClass="SignUpViewController" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q7d-5P-l2Q">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -569,7 +575,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ovk-rg-FGT">
                                 <rect key="frame" x="10" y="74" width="355" height="505"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="الاسم الرباعي  " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VMo-r8-2GG" customClass="textField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="الاسم الرباعي  " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VMo-r8-2GG" customClass="textField" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="355" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="Daw-Zx-mvv"/>
@@ -577,7 +583,7 @@
                                         <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIK-Wa-syI" customClass="roundedButtonLikeTextField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIK-Wa-syI" customClass="roundedButtonLikeTextField" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="65" width="355" height="50"/>
                                         <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                         <color key="tintColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
@@ -591,18 +597,18 @@
                                             <action selector="genderButtonTapped:" destination="bsl-YZ-b1y" eventType="touchUpInside" id="ZCt-dg-N5h"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="رقم السجل المدني " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XXv-aE-yPK" customClass="textField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="رقم السجل المدني " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XXv-aE-yPK" customClass="textField" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="130" width="355" height="50"/>
                                         <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="رقم الجوال " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gI1-8C-ee1" customClass="textField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="رقم الجوال " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gI1-8C-ee1" customClass="textField" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="195" width="355" height="50"/>
                                         <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
                                         <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="tel"/>
                                     </textField>
-                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rUq-z6-gg1" customClass="roundedButtonLikeTextField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rUq-z6-gg1" customClass="roundedButtonLikeTextField" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="260" width="355" height="50"/>
                                         <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                         <color key="tintColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
@@ -616,7 +622,7 @@
                                             <action selector="cityButtonTapped:" destination="bsl-YZ-b1y" eventType="touchUpInside" id="5zg-07-64I"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XfH-zG-Mhd" customClass="roundedButtonLikeTextField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XfH-zG-Mhd" customClass="roundedButtonLikeTextField" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="325" width="355" height="50"/>
                                         <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                         <color key="tintColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
@@ -630,12 +636,12 @@
                                             <action selector="donnateFieldButtonTapped:" destination="bsl-YZ-b1y" eventType="touchUpInside" id="wcc-kO-aPc"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="البريد الالكتروني " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ty9-Yl-ZbC" customClass="textField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="البريد الالكتروني " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ty9-Yl-ZbC" customClass="textField" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="390" width="355" height="50"/>
                                         <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yys-Kg-H1N" customClass="roundedButtonLikeTextField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yys-Kg-H1N" customClass="roundedButtonLikeTextField" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="455" width="355" height="50"/>
                                         <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                         <color key="tintColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
@@ -650,7 +656,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHq-TK-v0H" customClass="roundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHq-TK-v0H" customClass="roundedButton" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                 <rect key="frame" x="10" y="599" width="355" height="50"/>
                                 <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -674,8 +680,8 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Wtc-Mj-5st"/>
                     </view>
-                    <navigationItem key="navigationItem" title="منضم جديد" id="Dnl-Sd-5jo">
-                        <barButtonItem key="backBarButtonItem" id="OZb-z2-Qrb"/>
+                    <navigationItem key="navigationItem" id="Dnl-Sd-5jo">
+                        <barButtonItem key="backBarButtonItem" title=" " id="OZb-z2-Qrb"/>
                     </navigationItem>
                     <connections>
                         <outlet property="cityButton" destination="rUq-z6-gg1" id="c8p-I7-Bi6"/>
@@ -692,7 +698,7 @@
             <objects>
                 <viewController id="KeY-a8-f7y" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="71d-jP-HfA">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="8CX-ss-rnT"/>
@@ -706,13 +712,13 @@
         <!--LoginViewController-->
         <scene sceneID="Nzt-xB-I4g">
             <objects>
-                <viewController title="LoginViewController" id="OYE-wO-aNJ" customClass="LoginViewController" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="LoginViewController" id="OYE-wO-aNJ" customClass="LoginViewController" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lQw-n9-hly">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تسجيل الدخول " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mkI-Or-o3B">
-                                <rect key="frame" x="121" y="370.5" width="133.5" height="40"/>
+                                <rect key="frame" x="131" y="370.5" width="113.5" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="sxW-mG-oXZ"/>
                                 </constraints>
@@ -727,7 +733,7 @@
                                     <constraint firstAttribute="height" constant="200" id="kI1-dL-Qe9"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="رقم الجوال " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OWR-Ap-0KM" customClass="textField" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="رقم الجوال " textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OWR-Ap-0KM" customClass="textField" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                 <rect key="frame" x="16" y="430.5" width="343" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Mfj-Ki-Fcg"/>
@@ -736,7 +742,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8A5-4E-9Mb">
-                                <rect key="frame" x="136.5" y="575.5" width="102" height="50"/>
+                                <rect key="frame" x="143" y="575.5" width="89" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="TwC-XM-UmG"/>
                                 </constraints>
@@ -746,10 +752,10 @@
                                 </state>
                                 <connections>
                                     <action selector="signUpButtonTaped:" destination="OYE-wO-aNJ" eventType="touchUpInside" id="pXO-2g-gbE"/>
-                                    <segue destination="bsl-YZ-b1y" kind="show" id="5ed-RX-Lou"/>
+                                    <segue destination="bsl-YZ-b1y" kind="show" identifier="ToSignUP" id="5ed-RX-Lou"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o7x-nS-mkO" customClass="roundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o7x-nS-mkO" customClass="roundedButton" customModule="اللجنة_الانسانية_الحناي_ية" customModuleProvider="target">
                                 <rect key="frame" x="50" y="510.5" width="275" height="50"/>
                                 <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -784,7 +790,7 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="iqC-MP-MFz">
-                        <barButtonItem key="backBarButtonItem" id="9PR-0g-4TU"/>
+                        <barButtonItem key="backBarButtonItem" title=" " id="9PR-0g-4TU"/>
                     </navigationItem>
                     <connections>
                         <outlet property="phoneNumberTextField" destination="OWR-Ap-0KM" id="nEf-Qw-vBi"/>
@@ -807,12 +813,12 @@
     </scenes>
     <resources>
         <image name="Logo1" width="1280" height="1210"/>
-        <image name="arrowtriangle.down.fill" catalog="system" width="32" height="32"/>
-        <image name="camera.circle" catalog="system" width="32" height="32"/>
-        <image name="gear" catalog="system" width="32" height="32"/>
-        <image name="paperclip" catalog="system" width="32" height="32"/>
+        <image name="arrowtriangle.down.fill" catalog="system" width="64" height="62"/>
+        <image name="camera.circle" catalog="system" width="64" height="60"/>
+        <image name="gear" catalog="system" width="64" height="58"/>
+        <image name="paperclip" catalog="system" width="64" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="XDM-ik-dUP"/>
+        <segue reference="vIe-4x-BQr"/>
     </inferredMetricsTieBreakers>
 </document>

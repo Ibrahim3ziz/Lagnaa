@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fh6-2V-Hs3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fh6-2V-Hs3">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,35 +21,35 @@
             <objects>
                 <viewController id="Qzr-MB-8KM" customClass="DonationsViewController" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="POg-Li-8cd">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="dKT-yO-UVY">
-                                <rect key="frame" x="5" y="54" width="365" height="25"/>
+                                <rect key="frame" x="5" y="98" width="404" height="25"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="إجراءات" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MjQ-b8-FrU">
-                                        <rect key="frame" x="0.0" y="0.0" width="88.5" height="25"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="98" height="25"/>
                                         <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الحالة" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2HZ-aH-x1d">
-                                        <rect key="frame" x="92.5" y="0.0" width="88" height="25"/>
+                                        <rect key="frame" x="102" y="0.0" width="98" height="25"/>
                                         <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="التاريخ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zAU-J4-0vs">
-                                        <rect key="frame" x="184.5" y="0.0" width="88.5" height="25"/>
+                                        <rect key="frame" x="204" y="0.0" width="98" height="25"/>
                                         <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الرقم" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Grk-IT-NbK">
-                                        <rect key="frame" x="277" y="0.0" width="88" height="25"/>
+                                        <rect key="frame" x="306" y="0.0" width="98" height="25"/>
                                         <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -59,27 +61,27 @@
                                 </constraints>
                             </stackView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1Mg-2h-GoQ">
-                                <rect key="frame" x="0.0" y="94" width="375" height="573"/>
+                                <rect key="frame" x="0.0" y="138" width="414" height="724"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PaymentCell" id="S1T-CV-RYV" customClass="PaymentCell" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="50"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="S1T-CV-RYV" id="1Kq-ID-X5e">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h2a-mG-9qX">
-                                                    <rect key="frame" x="5" y="5" width="365" height="40"/>
+                                                    <rect key="frame" x="5" y="5" width="404" height="40"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="gEQ-LV-1q9">
-                                                            <rect key="frame" x="0.0" y="0.0" width="365" height="40"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="404" height="40"/>
                                                             <subviews>
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JQQ-zy-T8b">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="88.5" height="40"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="98" height="40"/>
                                                                     <subviews>
                                                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="wft-pC-1WC">
-                                                                            <rect key="frame" x="24" y="10" width="40" height="20"/>
+                                                                            <rect key="frame" x="29" y="10" width="40" height="20"/>
                                                                             <subviews>
                                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eye" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="9TZ-eI-Ocm">
                                                                                     <rect key="frame" x="0.0" y="1.5" width="20" height="16.5"/>
@@ -103,21 +105,21 @@
                                                                     </constraints>
                                                                 </view>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gc-h5-lTv">
-                                                                    <rect key="frame" x="92.5" y="0.0" width="88" height="40"/>
+                                                                    <rect key="frame" x="102" y="0.0" width="98" height="40"/>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DR8-dX-q5f">
-                                                                    <rect key="frame" x="184.5" y="0.0" width="88.5" height="40"/>
+                                                                    <rect key="frame" x="204" y="0.0" width="98" height="40"/>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N4p-iU-01e">
-                                                                    <rect key="frame" x="277" y="0.0" width="88" height="40"/>
+                                                                    <rect key="frame" x="306" y="0.0" width="98" height="40"/>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                                                     <nil key="textColor"/>
@@ -164,7 +166,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="aBF-kr-0ed"/>
                     </view>
-                    <navigationItem key="navigationItem" title="تبرعاتي" id="2SR-BW-lV0"/>
+                    <navigationItem key="navigationItem" title="تبرعاتي" id="2SR-BW-lV0">
+                        <barButtonItem key="backBarButtonItem" title=" " id="dNf-Qs-5bd"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="donationTable" destination="1Mg-2h-GoQ" id="KPt-Dc-Wke"/>
                         <segue destination="MWk-KE-0DS" kind="show" identifier="To Case" id="5EH-3e-zNZ"/>
@@ -179,23 +183,23 @@
             <objects>
                 <viewController id="MWk-KE-0DS" customClass="CaseViewController" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KGt-hw-0TQ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تاريخ الطلب:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fz8-Qw-2j4">
-                                <rect key="frame" x="148" y="59" width="79.5" height="32"/>
+                                <rect key="frame" x="167.5" y="103" width="79.5" height="32"/>
                                 <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ملخص الطلب" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wkh-aS-ccV">
-                                <rect key="frame" x="138.5" y="106" width="98.5" height="32"/>
+                                <rect key="frame" x="158" y="150" width="98.5" height="32"/>
                                 <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="17"/>
                                 <color key="textColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="هذا النص لا يحدث عليه تعديل" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="doL-6q-DTX" customClass="textView" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
-                                <rect key="frame" x="16" y="148" width="343" height="150"/>
+                                <rect key="frame" x="16" y="192" width="382" height="150"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="a1z-Gy-6MI"/>
@@ -206,46 +210,46 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="قيمة التبرع" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnz-bV-GM7">
-                                <rect key="frame" x="151" y="306" width="73.5" height="32"/>
+                                <rect key="frame" x="170.5" y="350" width="73.5" height="32"/>
                                 <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="أرسل استفسارك" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F1O-aV-5PJ">
-                                <rect key="frame" x="132.5" y="464" width="110.5" height="32"/>
+                                <rect key="frame" x="152" y="508" width="110.5" height="32"/>
                                 <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="التبرعات التي وصلت لحد الآن" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UL3-x2-YPW">
-                                <rect key="frame" x="93.5" y="385" width="188.5" height="32"/>
+                                <rect key="frame" x="113" y="429" width="188.5" height="32"/>
                                 <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ريال" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yel-zL-5s2">
-                                <rect key="frame" x="173.5" y="343" width="28.5" height="32"/>
+                                <rect key="frame" x="193" y="387" width="28.5" height="32"/>
                                 <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="17"/>
                                 <color key="textColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ريال" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1J7-Ej-rlx">
-                                <rect key="frame" x="173.5" y="501" width="28.5" height="32"/>
+                                <rect key="frame" x="193" y="545" width="28.5" height="32"/>
                                 <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="17"/>
                                 <color key="textColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ريال" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tKz-jx-vd6">
-                                <rect key="frame" x="173.5" y="422" width="28.5" height="32"/>
+                                <rect key="frame" x="193" y="466" width="28.5" height="32"/>
                                 <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="17"/>
                                 <color key="textColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="MCa-iM-kGW">
-                                <rect key="frame" x="16" y="553" width="343" height="50"/>
+                                <rect key="frame" x="16" y="597" width="382" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yyh-3N-8qd" customClass="roundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="161.5" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="181" height="50"/>
                                         <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="aQh-02-W6U"/>
@@ -259,7 +263,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UUX-5u-mDg" customClass="roundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
-                                        <rect key="frame" x="181.5" y="0.0" width="161.5" height="50"/>
+                                        <rect key="frame" x="201" y="0.0" width="181" height="50"/>
                                         <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="25"/>
                                         <state key="normal" title="موافق">
@@ -305,7 +309,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="KZw-I4-rNk"/>
                     </view>
-                    <navigationItem key="navigationItem" id="3nI-hw-JRD"/>
+                    <navigationItem key="navigationItem" id="3nI-hw-JRD">
+                        <barButtonItem key="backBarButtonItem" title=" " id="Kw7-FG-uB4"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3av-Bj-EnG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -316,11 +322,11 @@
             <objects>
                 <viewController id="QjX-Dr-c8l" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B1r-RN-0Pm">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="طلبك رقم قيد المراجعة هل أنت متأكد من إلغاؤه؟ " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Qi-dC-Lxb">
-                                <rect key="frame" x="16" y="64" width="343" height="32"/>
+                                <rect key="frame" x="16" y="108" width="382" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="s6y-Pw-zUp"/>
                                 </constraints>
@@ -329,10 +335,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="gXh-sq-V93">
-                                <rect key="frame" x="16" y="116" width="343" height="50"/>
+                                <rect key="frame" x="16" y="160" width="382" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tk2-g8-JPk" customClass="roundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="161.5" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="181" height="50"/>
                                         <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="hL3-hp-aA9"/>
@@ -343,7 +349,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4j-rl-uVe" customClass="roundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
-                                        <rect key="frame" x="181.5" y="0.0" width="161.5" height="50"/>
+                                        <rect key="frame" x="201" y="0.0" width="181" height="50"/>
                                         <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="25"/>
                                         <state key="normal" title="موافق">
@@ -368,31 +374,31 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rew-xX-bj8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2328.8000000000002" y="2495.8020989505249"/>
+            <point key="canvasLocation" x="2716" y="2496"/>
         </scene>
         <!--الدفع-->
         <scene sceneID="95b-iH-Iit">
             <objects>
                 <viewController id="xmf-7a-UE9" customClass="PaymentViewController" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UAm-US-Aif">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="payment" translatesAutoresizingMaskIntoConstraints="NO" id="yCA-Ed-5OH">
-                                <rect key="frame" x="87.5" y="124" width="200" height="200"/>
+                                <rect key="frame" x="107" y="168" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="8Zp-jJ-evK"/>
                                     <constraint firstAttribute="height" constant="200" id="eFE-li-JZ7"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="شكرا&quot; لتبرعكم" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wa0-kM-duG">
-                                <rect key="frame" x="136" y="354" width="103" height="32"/>
+                                <rect key="frame" x="155.5" y="398" width="103" height="32"/>
                                 <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="17"/>
                                 <color key="textColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="المبلغ:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzg-vt-Gey">
-                                <rect key="frame" x="50" y="394" width="275" height="50"/>
+                                <rect key="frame" x="50" y="438" width="314" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="iuD-zs-BoJ"/>
                                 </constraints>
@@ -401,7 +407,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ubm-Wb-4zl" customClass="roundedButton" customModule="اللجنة_الانسانية_الجناي_ية" customModuleProvider="target">
-                                <rect key="frame" x="16" y="452" width="343" height="50"/>
+                                <rect key="frame" x="16" y="496" width="382" height="50"/>
                                 <color key="backgroundColor" red="0.32549019610000002" green="0.70196078429999997" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="JXr-gi-NGH"/>
@@ -436,7 +442,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DYv-m7-rz5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4412" y="2496"/>
+            <point key="canvasLocation" x="3829" y="2496"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="nXN-gt-bp7">
@@ -445,7 +451,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="VTw-za-s60"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1up-uC-0dI">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

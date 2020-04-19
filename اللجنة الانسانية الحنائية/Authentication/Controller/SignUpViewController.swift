@@ -86,7 +86,17 @@ class SignUpViewController: UIViewController {
     }
     
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if navigationItem.title == "مستفيد جديد"  {
+            donnateFieldButton.isEnabled = false
+        }
+        if navigationItem.title == "منضم جديد" {
+            donnateFieldButton.isEnabled = false
+        }
+        if navigationItem.title == "متبرع جديد" {
+            donnateFieldButton.isEnabled = false
+        }
+    }
     
   
     

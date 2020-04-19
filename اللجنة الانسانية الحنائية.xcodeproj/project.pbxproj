@@ -15,11 +15,10 @@
 		044C2BCF2373B39800AEAC73 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044C2BCE2373B39800AEAC73 /* PaymentViewController.swift */; };
 		045A4B4F2375EA4B00F5B86D /* DonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A4B4E2375EA4B00F5B86D /* DonationsViewController.swift */; };
 		045A4B512375F4F200F5B86D /* PaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A4B502375F4F200F5B86D /* PaymentCell.swift */; };
-		048646BE2369E2F300496C0E /* Membership.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048646BD2369E2F300496C0E /* Membership.swift */; };
 		048646C2236A3B8200496C0E /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048646C1236A3B8200496C0E /* StartViewController.swift */; };
 		048E1B0D2370F63400571B56 /* roundedButtonLikeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E1B0C2370F63400571B56 /* roundedButtonLikeTextField.swift */; };
-		04A9D5662379474A004587AD /* Donation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A9D5652379474A004587AD /* Donation.storyboard */; };
 		04B3300E23730D35003B0C5C /* textView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3300D23730D35003B0C5C /* textView.swift */; };
+		04D8E3CF244BD862004B2817 /* Donation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D8E3CE244BD862004B2817 /* Donation.storyboard */; };
 		04D9EE12235E8C6300C02AFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9EE11235E8C6300C02AFE /* AppDelegate.swift */; };
 		04D9EE1C235E8C6500C02AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D9EE1A235E8C6500C02AFE /* LaunchScreen.storyboard */; };
 		04D9EE28235F200E00C02AFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D9EE27235F200E00C02AFE /* Main.storyboard */; };
@@ -48,16 +47,15 @@
 		044C2BCE2373B39800AEAC73 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		045A4B4E2375EA4B00F5B86D /* DonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationsViewController.swift; sourceTree = "<group>"; };
 		045A4B502375F4F200F5B86D /* PaymentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCell.swift; sourceTree = "<group>"; };
-		048646BD2369E2F300496C0E /* Membership.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Membership.swift; sourceTree = "<group>"; };
 		048646C1236A3B8200496C0E /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		048E1B0C2370F63400571B56 /* roundedButtonLikeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundedButtonLikeTextField.swift; sourceTree = "<group>"; };
-		04A9D5652379474A004587AD /* Donation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Donation.storyboard; path = "اللجنة الانسانية الجنائية/Authentication/View/Donation.storyboard"; sourceTree = SOURCE_ROOT; };
 		04B3300D23730D35003B0C5C /* textView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textView.swift; sourceTree = "<group>"; };
-		04D9EE0E235E8C6300C02AFE /* اللجنة الانسانية الجنائية.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "اللجنة الانسانية الجنائية.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D8E3CE244BD862004B2817 /* Donation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Donation.storyboard; sourceTree = "<group>"; };
+		04D9EE0E235E8C6300C02AFE /* اللجنة الانسانية الحنائية.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "اللجنة الانسانية الحنائية.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D9EE11235E8C6300C02AFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04D9EE1B235E8C6500C02AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04D9EE1D235E8C6500C02AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04D9EE27235F200E00C02AFE /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../View/Main.storyboard; sourceTree = "<group>"; };
+		04D9EE27235F200E00C02AFE /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		04D9EE29235F52BD00C02AFE /* roundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundedButton.swift; sourceTree = "<group>"; };
 		04D9EE2B235F5F8B00C02AFE /* textField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textField.swift; sourceTree = "<group>"; };
 		04D9EE2E23605FE500C02AFE /* Cairo-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 		048646BC2369E2DD00496C0E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				048646BD2369E2F300496C0E /* Membership.swift */,
 				0441CD1A23763BD6001D6455 /* Request.swift */,
 				0441CD1C23764039001D6455 /* DataService.swift */,
 				042E1C2723769862009CCDC5 /* Case.swift */,
@@ -107,7 +104,7 @@
 		04D9EE05235E8C6300C02AFE = {
 			isa = PBXGroup;
 			children = (
-				04D9EE10235E8C6300C02AFE /* اللجنة الانسانية الجنائية */,
+				04D9EE10235E8C6300C02AFE /* اللجنة الانسانية الحنائية */,
 				04D9EE0F235E8C6300C02AFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,12 +112,12 @@
 		04D9EE0F235E8C6300C02AFE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04D9EE0E235E8C6300C02AFE /* اللجنة الانسانية الجنائية.app */,
+				04D9EE0E235E8C6300C02AFE /* اللجنة الانسانية الحنائية.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04D9EE10235E8C6300C02AFE /* اللجنة الانسانية الجنائية */ = {
+		04D9EE10235E8C6300C02AFE /* اللجنة الانسانية الحنائية */ = {
 			isa = PBXGroup;
 			children = (
 				042D72DD237770A900820D8F /* extensions */,
@@ -130,7 +127,7 @@
 				04D9EE11235E8C6300C02AFE /* AppDelegate.swift */,
 				04E4BE93236F33C10020CFF3 /* Assets.xcassets */,
 			);
-			path = "اللجنة الانسانية الجنائية";
+			path = "اللجنة الانسانية الحنائية";
 			sourceTree = "<group>";
 		};
 		04D9EE23235F1C1A00C02AFE /* Authentication */ = {
@@ -198,17 +195,18 @@
 			isa = PBXGroup;
 			children = (
 				04D9EE27235F200E00C02AFE /* Main.storyboard */,
-				04A9D5652379474A004587AD /* Donation.storyboard */,
+				04D8E3CE244BD862004B2817 /* Donation.storyboard */,
 			);
-			path = Storyboards;
+			name = Storyboards;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04D9EE0D235E8C6300C02AFE /* اللجنة الانسانية الجنائية */ = {
+		04D9EE0D235E8C6300C02AFE /* اللجنة الانسانية الحنائية */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04D9EE20235E8C6500C02AFE /* Build configuration list for PBXNativeTarget "اللجنة الانسانية الجنائية" */;
+			buildConfigurationList = 04D9EE20235E8C6500C02AFE /* Build configuration list for PBXNativeTarget "اللجنة الانسانية الحنائية" */;
 			buildPhases = (
 				04D9EE0A235E8C6300C02AFE /* Sources */,
 				04D9EE0B235E8C6300C02AFE /* Frameworks */,
@@ -218,9 +216,9 @@
 			);
 			dependencies = (
 			);
-			name = "اللجنة الانسانية الجنائية";
+			name = "اللجنة الانسانية الحنائية";
 			productName = "اللجنة الانسانية الجنائية";
-			productReference = 04D9EE0E235E8C6300C02AFE /* اللجنة الانسانية الجنائية.app */;
+			productReference = 04D9EE0E235E8C6300C02AFE /* اللجنة الانسانية الحنائية.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -238,7 +236,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04D9EE09235E8C6300C02AFE /* Build configuration list for PBXProject "اللجنة الانسانية الجنائية" */;
+			buildConfigurationList = 04D9EE09235E8C6300C02AFE /* Build configuration list for PBXProject "اللجنة الانسانية الحنائية" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -251,7 +249,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04D9EE0D235E8C6300C02AFE /* اللجنة الانسانية الجنائية */,
+				04D9EE0D235E8C6300C02AFE /* اللجنة الانسانية الحنائية */,
 			);
 		};
 /* End PBXProject section */
@@ -264,8 +262,8 @@
 				04D9EE28235F200E00C02AFE /* Main.storyboard in Resources */,
 				04D9EE3923605FE600C02AFE /* Cairo-SemiBoldItalic.ttf in Resources */,
 				04D9EE3D23605FE600C02AFE /* Cairo-SemiBold.ttf in Resources */,
+				04D8E3CF244BD862004B2817 /* Donation.storyboard in Resources */,
 				04D9EE3C23605FE600C02AFE /* Cairo-LightItalic.ttf in Resources */,
-				04A9D5662379474A004587AD /* Donation.storyboard in Resources */,
 				04D9EE1C235E8C6500C02AFE /* LaunchScreen.storyboard in Resources */,
 				04D9EE4323605FE600C02AFE /* Cairo-Regular.ttf in Resources */,
 				04D9EE3F23605FE600C02AFE /* Cairo-Italic.ttf in Resources */,
@@ -299,7 +297,6 @@
 				04D9EE2A235F52BD00C02AFE /* roundedButton.swift in Sources */,
 				04E104532366627B00788C47 /* LoginViewController.swift in Sources */,
 				04D9EE2C235F5F8B00C02AFE /* textField.swift in Sources */,
-				048646BE2369E2F300496C0E /* Membership.swift in Sources */,
 				0441CD1D23764039001D6455 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,7 +437,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97KJB35S4G;
-				INFOPLIST_FILE = "$(SRCROOT)/اللجنة الانسانية الجنائية/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/اللجنة الانسانية الحنائية/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,7 +455,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97KJB35S4G;
-				INFOPLIST_FILE = "$(SRCROOT)/اللجنة الانسانية الجنائية/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/اللجنة الانسانية الحنائية/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,7 +470,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04D9EE09235E8C6300C02AFE /* Build configuration list for PBXProject "اللجنة الانسانية الجنائية" */ = {
+		04D9EE09235E8C6300C02AFE /* Build configuration list for PBXProject "اللجنة الانسانية الحنائية" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04D9EE1E235E8C6500C02AFE /* Debug */,
@@ -482,7 +479,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04D9EE20235E8C6500C02AFE /* Build configuration list for PBXNativeTarget "اللجنة الانسانية الجنائية" */ = {
+		04D9EE20235E8C6500C02AFE /* Build configuration list for PBXNativeTarget "اللجنة الانسانية الحنائية" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04D9EE21235E8C6500C02AFE /* Debug */,
